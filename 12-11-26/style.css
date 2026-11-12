@@ -1,0 +1,22 @@
+    body {
+        background-color: white
+    }
+    
+    h2 {
+        color: Tomato
+    }
+    
+    h3 {
+        color: red
+    }
+    
+    p {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .contact-box {
+        border: 2px solid red;
+        padding: 10px;
+        width: 300px;
+    }
