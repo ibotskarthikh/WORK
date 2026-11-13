@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to left, yellow, pink);
+}
+
+h2 {
+  color: tomato;
+}
+
+h3 {
+  color: red;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  font-family: "Georgia";
+}
+
+.contact-box {
+  border: 5px solid red;
+  padding: 10px;
+  width: 300px;
+  background: linear-gradient(to right, blue, purple);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+}
+
+.education {
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.table table,
+.users table {
+  margin: 0 auto;
+}
