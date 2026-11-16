@@ -1,0 +1,51 @@
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.container1 div {
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.container2 div {
+    background: red;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+}
+
+.container3 div {
+    background: red;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-ft, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.container4 div {
+    background: red;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
