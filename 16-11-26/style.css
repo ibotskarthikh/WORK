@@ -1,0 +1,108 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: rgb(114, 114, 154);
+        font-family: Georgia;
+    }
+    
+    img {
+        float: right;
+        padding: 20px;
+        margin-left: 15px;
+        margin: 30px;
+        width: 200px;
+        border-radius: 100px;
+        background-color: white;
+        border: 8px solid pink;
+        height: 200px;
+    }
+    
+    header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        color: red;
+        text-shadow: 3px 3px 5px gray;
+        text-decoration: underline;
+    }
+    
+    p {
+        font-size: 28px;
+        color: green;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .container {
+        background-color: white;
+        width: 80%;
+        margin: 30px auto;
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 20px;
+        box-shadow: 30px 30px 50px grey;
+    }
+    
+    .containers {
+        background-color: white;
+        width: 80%;
+        margin: 30px auto;
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 20px;
+        box-shadow: 30px 30px 50px grey;
+    }
+    
+    .box {
+        background-color: pink;
+        padding: 20px;
+        margin: 15px;
+        border: 2px solid blue;
+        box-shadow: 30px 30px 50px grey;
+    }
+    
+    .boxes {
+        background-color: lightblue;
+        padding: 20px;
+        margin: 15px;
+        border: 2px solid red;
+        box-shadow: 30px 30px 50px grey;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .dotted {
+        border: 3px dotted purple;
+        padding: 20px;
+    }
+    
+    .dashed {
+        border: 3px dashed rgb(0, 128, 38);
+        padding: 20px;
+    }
+    
+    .outset {
+        border: 6px inset rgb(34, 108, 108);
+        padding: 20px;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    .footer p {
+        color: red;
+    }
