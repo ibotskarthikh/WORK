@@ -49,7 +49,9 @@ p {
 .users table {
     border-collapse: collapse;
     font-family: arial;
-    /* color: blue; */
+    color: blue;
+    width: 100%;
+    text-align: center;
 }
 
 table,
@@ -62,6 +64,10 @@ td {
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.tr:hover {
+    background-color: coral;
 }
 
 .project-card {

@@ -1,0 +1,108 @@
+.imgbox {
+    float: left;
+    text-align: center;
+    width: 120px;
+    border: 1px solid gray;
+    margin: 4px;
+    padding: 20px;
+    background-color: pink;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.clear {
+    clear: both;
+}
+
+.example {
+    background-color: #1769d2;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.example span {
+    background-color: #dc493e;
+    color: white;
+    padding: 15px;
+}
+
+.note {
+    color: gray;
+}
+
+.ex1 span {
+    display: none;
+}
+
+.ex2 span {
+    display: inline;
+}
+
+.ex3 span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ex4 span {
+    display: inline-block;
+}
+
+.ex5 {
+    display: flex;
+    gap: 10px;
+}
+
+.ex6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.container {
+    position: relative;
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid rgb(211, 67, 67);
+    height: 100px;
+    margin: 30px;
+}
+
+.gray-box {
+    position: absolute;
+    z-index: 3;
+    background: rgb(182, 168, 168);
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background: rgb(46, 237, 46);
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
