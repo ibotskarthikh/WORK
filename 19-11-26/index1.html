@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+            animation: move 1s ease-in-out 1s infinite alternate;
+        }
+        
+        @keyframes move {
+            0% {
+                background: red;
+                transform: translateX(0);
+            }
+            50% {
+                background: blue;
+            }
+            100% {
+                background: green;
+                transform: translateX(200px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Animation</h1>
+    <div class="box"></div>
+
+</body>
+
+</html>

@@ -23,7 +23,7 @@
 23.p
 24.img src
 25.div
-26.span 
+26.span
 27.ul
 28.ol
 29.li
@@ -48,3 +48,45 @@
 48.textarea
 49.input
 50.footer
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+inline -  
+<h1 style = "color: blue"> Hello <h1>
+
+internal -
+<style> h1{ color:blue;} </style>
+
+External -
+<link rel = "stylesheet" href="style.css">
+-----------------------------------------------------
+
+Element
+p{}
+.box{}
+#header{}
+*{}
+h1,p{}
+
+--------------
+
+color: red;
+backgroud-color: blue;
+
+karthik2026 k small
+your todayb task entry here after check in 
+okay Karthik continue your work...
+
+font-size: 20px;
+font-family: Arial
+font-weight: bold
+font-style: italic
+
+float, in-block, align, opacity, nav, dropdown, img gallery, forms,counter, units, inheritance, specificity, math funcation, accessibility, website layout 
+
+
+----------------------------------------------------------------------------------------------------
+
+19-11-26
+
+Rounded Corners

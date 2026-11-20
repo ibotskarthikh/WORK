@@ -1,0 +1,200 @@
+* {
+    background-color: yellow;
+}
+
+.div1 {
+    border-radius: 25px;
+    background-color: rgb(63, 255, 49);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.div2 {
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+}
+
+.div3 {
+    border-radius: 400px;
+    border: 2px solid pink;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.div4 {
+    border-radius: 0 0 50% 50%;
+    border: 2px solid orange;
+    padding: 30px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+#border {
+    border: 5px solid transparent;
+    padding: 5px;
+    border-image: url("img.png") 30 round;
+}
+
+#example1 {
+    background-image: url("img.png"), url("img1.png");
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, repeat;
+    padding: 35px;
+}
+
+.box {
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    border: 5px solid red
+}
+
+.box1 {
+    padding-top: 20px;
+    width: 200px;
+    height: 100px;
+    color: blue;
+    border: 5px solid currentcolor;
+}
+
+.parent {
+    color: red;
+}
+
+.child {
+    color: inherit;
+}
+
+#grad1 {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+h1 {
+    text-shadow: 2px 2px;
+}
+
+.HELLO {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px;
+}
+
+.boxx {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin: 80px;
+    transform: rotate(45deg);
+}
+
+.container {
+    perspective: 500px;
+    margin: 100px;
+}
+
+.boxxxxx {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+
+.wid {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+}
+
+.wid:hover {
+    width: 500px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 130px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: -5px;
+    left: 105%;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.Hi img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+.Flip img:hover {
+    transform: scaleX(-1);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+}
+
+#img1 {
+    filter: blur(2px);
+    display: block;
+    margin: auto;
+}
+
+#img2 {
+    filter: blur(8px);
+    display: block;
+    margin: auto;
+}
+
+#img3 {
+    display: block;
+    margin: auto;
+}
+
+#para {
+    float: left;
+    clip-path: circle(40%);
+    shape-outside: circle(50%);
+}
