@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: blue;
+    column-fill: balance;
+}
+
+.newspaper h2 {
+    column-span: all;
+    text-align: center;
+}
+
+.width-example {
+    column-width: 150px;
+    column-gap: 30px;
+    column-rule: 2px dashed red;
+    columns: 150px 3;
+}
