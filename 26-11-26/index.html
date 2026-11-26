@@ -1,0 +1,215 @@
+<html>
+
+<head>
+    <title>JavaScript 3 Methods</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+        function showDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+</head>
+
+<body>
+    <h1>My First JavaScript</h1>
+    <p id="demo"></p>
+    <button onclick="showDate()">Date</button>
+
+
+    <hr />
+
+    <h2>Change Text and Font Size</h2>
+
+    <p id="demo1">JS Can Change</p>
+
+    <button onclick="
+        document.getElementById('demo1').style.fontSize = '40px';
+        document.getElementById('demo1').innerHTML = 'Hello JS';
+      ">
+      CLICK ME
+    </button>
+
+    <hr />
+
+    <h2>Change Image</h2>
+
+    <button onclick="turnOn()">ON</button>
+    <img id="img" src="pic_bulboff.gif" width="100" />
+    <button onclick="turnOff()">OFF</button>
+
+    <hr />
+
+    <h2>innerHTML</h2>
+    <p id="demo2">Original Text</p>
+    <button onclick="changeHTML()">Change HTML</button>
+
+    <hr />
+
+    <h2>innerText</h2>
+    <p id="demo3">Original Text</p>
+    <button onclick="changeText()">Change Text</button>
+
+    <hr />
+
+    <h2>document.write()</h2>
+    <button onclick="writeOutput()">Write Output</button>
+
+    <hr />
+
+    <h2>window.alert()</h2>
+    <button onclick="showAlert()">Show Alert</button>
+
+    <hr />
+
+    <h2>console.log()</h2>
+    <button onclick="showConsole()">Console Output</button>
+
+    <hr />
+
+    <h2>window.print()</h2>
+    <button onclick="window.print()">Print</button>
+
+    <hr />
+
+    <h2>TEXT</h2>
+    <p id="demo4"></p>
+
+    <hr />
+
+    <h2>Variables</h2>
+    <p id="demo5"></p>
+
+    <hr />
+
+    <h2>Operations</h2>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo13"></p>
+
+    <hr />
+
+    <h2>Data Types</h2>
+    <p id="demo10"></p>
+    <p id="demo11"></p>
+    <p id="demo12"></p>
+    <hr />
+    <h2>Conditions</h2>
+    <p id="demo14"></p>
+    <script>
+        document.getElementById("demo4").innerHTML = "Karthikkkkk";
+    </script>
+
+    <script>
+        let a = 5;
+        const fname = "Jack";
+        var lname = "Wils";
+
+        document.getElementById("demo5").innerHTML =
+            fname + " " + lname + " is " + a + " years old.";
+    </script>
+
+    <script>
+        let x = 5;
+        let y = 5;
+
+        let addsum = x + y;
+        let sub = x - y;
+        let mul = x * y;
+        let div = x / y;
+        let mod = x % y;
+
+        document.getElementById("demo6").innerHTML =
+            "Addition: " + x + " + " + y + " = " + addsum;
+
+        document.getElementById("demo7").innerHTML =
+            "Subtraction: " + x + " - " + y + " = " + sub;
+
+        document.getElementById("demo8").innerHTML =
+            "Multiplication: " + x + " * " + y + " = " + mul;
+
+        document.getElementById("demo9").innerHTML =
+            "Division: " + x + " / " + y + " = " + div;
+
+        document.getElementById("demo13").innerHTML =
+            "Modulus: " + x + " % " + y + " = " + mod;
+    </script>
+
+    <script>
+        let color = "Yellow";
+        let lastName = "Wils";
+
+        let length = 10;
+        let weight = 10;
+
+        let bigNumber = 123434343345654;
+
+        let bb = true;
+        let cc = false;
+
+        const person = {
+            firstname: "Wil",
+            lastname: "Jacks",
+        };
+
+        const car = ["BMW", "Ferrari"];
+
+        const date = new Date("2022-03-03");
+
+        let student;
+
+        let aaa = null;
+
+        document.getElementById("demo10").innerHTML =
+            "String: " +
+            color +
+            " " +
+            lastName +
+            "<br>Number: " +
+            length +
+            " " +
+            weight +
+            "<br>BigInt: " +
+            bigNumber +
+            "<br>Boolean: " +
+            bb +
+            " " +
+            cc;
+
+        document.getElementById("demo11").innerHTML =
+            "Object: " +
+            person.firstname +
+            " " +
+            person.lastname +
+            "<br>Array: " +
+            car.join(", ") +
+            "<br>Date: " +
+            date;
+
+        document.getElementById("demo12").innerHTML =
+            "Undefined: " + student + "<br>Null: " + aaa;
+    </script>
+    <script>
+        let mark = 90;
+
+        if (mark > 90) {
+            document.getElementById("demo14").innerHTML = "Grade A";
+        } else if (mark >= 75) {
+            if (mark >= 80) {
+                document.getElementById("demo14").innerHTML = "Grade B+";
+            } else {
+                document.getElementById("demo14").innerHTML = "Grade B";
+            }
+        } else if (mark >= 50) {
+            document.getElementById("demo14").innerHTML = "Grade C";
+        } else {
+            document.getElementById("demo14").innerHTML = "FAIL";
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
