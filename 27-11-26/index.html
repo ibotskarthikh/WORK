@@ -1,0 +1,254 @@
+<html>
+
+<head>
+    <title>JS</title>
+</head>
+
+<body>
+    <h2>Ternary Operator</h2>
+    <p id="demo"></p>
+    <hr />
+    <h2>Switch + Default Statement</h2>
+    <p id="demo1"></p>
+    <hr />
+    <h2>strict comparison</h2>
+    <p id="demo2"></p>
+    <hr />
+    <h2>Boolean</h2>
+    <p id="demo3"></p>
+    <hr />
+    <h2>Logical</h2>
+    <h4>&&</h4>
+    <p id="demo4"></p>
+    <h4>||</h4>
+    <p id="demo5"></p>
+    <h4>!</h4>
+
+    <p id="demo6"></p>
+    <hr />
+    <h2>FOR LOOP</h2>
+    <p id="demo7"></p>
+    <hr />
+    <h2>FOR Loop</h2>
+    <p id="demo8"></p>
+    <hr />
+    <h2>WHILE LOOP</h2>
+    <p id="demo9"></p>
+    <hr />
+    <h2>DO WHILE LOOP</h2>
+    <p id="demo10"></p>
+    <hr />
+    <h2>Label Break</h2>
+    <p id="demo11"></p>
+    <hr />
+    <h2>List Break</h2>
+    <p id="demo12"></p>
+    <hr />
+    <h2>Continue</h2>
+    <p id="demo13"></p>
+    <hr />
+    <h2>Function</h2>
+    <p id="demo14"></p>
+    <hr />
+    <h2>String</h2>
+    <p id="demo15"></p>
+    <p id="demo16"></p>
+    <p id="demo17"></p>
+    <p id="demo18"></p>
+    <p id="demo19"></p>
+    <p id="demo20"></p>
+    <p id="demo21"></p>
+    <p id="demo22"></p>
+    <p id="demo23"></p>
+    <p id="demo24"></p>
+    <p id="demo25"></p>
+    <p id="demo26"></p>
+    <p id="demo27"></p>
+    <p id="demo28"></p>
+    <p id="demo29"></p>
+    <p id="demo30"></p>
+    <script>
+        let age = " 20 ";
+        let text = age > 18 ? "Minor " : "Adult ";
+        document.getElementById("demo").innerHTML = text;
+    </script>
+    <script>
+        let textt;
+        let day;
+        let date = new Date().getDay();
+
+        switch (date) {
+            case 1:
+                day = "monday ";
+                break;
+            case 2:
+                day = "tuesday ";
+                break;
+            case 3:
+                day = "wednesday ";
+                break;
+            case 4:
+                day = "thursday ";
+                break;
+            case 5:
+                day = "friday ";
+                break;
+            case 0:
+            case 6:
+                day = "WEEKEND ";
+                break;
+            default:
+                day = "Heloooo ";
+        }
+
+        document.getElementById("demo1").innerHTML = "Today is " + day;
+    </script>
+    <script>
+        let x = "0 ";
+        switch (x) {
+            case 0:
+                texttt = "off ";
+                break;
+            case 1:
+                texttt = "on ";
+                break;
+            default:
+                texttt = "no value ";
+        }
+        document.getElementById("demo2").innerHTML = texttt;
+    </script>
+    <script>
+        let a = 5;
+        document.getElementById("demo3").innerHTML = a == 8;
+    </script>
+    <script>
+        let S1 = 9;
+        let S2 = 2;
+        let S3 = (S1 > 0 || S2 < 0);
+        document.getElementById("demo4").innerHTML = (S1 < 10 && S2 > 1) + "<br>" + (S1 <
+            10 && S2 < 1);
+        document.getElementById("demo5").innerHTML = S 3;
+        document.getElementById("demo6").innerHTML = !(5 == 8);
+    </script>
+    <script>
+        const cars = ["BMW", "Volvo", "Ford", "Audi"];
+        let ans = "";
+        for (let i = 0; i < cars.length; i++) {
+            ans = ans + cars[i] + "<br>";
+        }
+        document.getElementById("demo7").innerHTML = ans;
+    </script>
+
+    <script>
+        let texttt = "";
+        for (let i = 0; i < 5; i++) {
+            texttt = texttt + "The Number is " + i + "<br>";
+        }
+        document.getElementById("demo8").innerHTML = texttt;
+    </script>
+    <script>
+        let taext = " ";
+
+        let i = 0;
+        while (i < 5) {
+            taext += "The number is " + i + "<br>";
+            i++;
+        }
+        document.getElementById("demo9").innerHTML = taext;
+    </script>
+    <script>
+        let tiext = "";
+        let b = 0;
+        do {
+            tiext += "Number is " + b + "<br>";
+            b++;
+        } while (b < 5);
+        document.getElementById("demo10").innerHTML = tiext;
+    </script>
+    <script>
+        let teext = "";
+
+        loop1: for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 5; j++) {
+                if (j === 3) {
+                    break loop1;
+                }
+                teext += i + "<br>";
+            }
+        }
+        document.getElementById("demo11").innerHTML = teext;
+    </script>
+    <script>
+        const caars = ["BMW", "Volvo", "Ford"];
+        let teeext = "";
+
+        list: {
+            teeext += caars[0] + "<br>";
+            teeext += caars[1] + "<br>";
+
+            break list;
+
+            teeext += caars[2] + "<br>";
+        }
+
+        document.getElementById("demo12").innerHTML = teeext;
+    </script>
+    <script>
+        let solution = "";
+        for (let i = 1; i < 10; i++) {
+            if (i === 3) {
+                continue;
+            }
+            solution += i * 10 + "<br>";
+        }
+        document.getElementById("demo13").innerHTML = solution;
+    </script>
+    <script>
+        function myFunction(p1, p2) {
+            return p1 * p2;
+        }
+        let result = myFunction(4, 3);
+        document.getElementById("demo14").innerHTML = "Result is " + result;
+    </script>
+    <script>
+        let ffname = "Wil  ";
+        let llname = "jacks  ";
+        let char = ffname.charAt(0);
+        let letter = ffname.at(2);
+        let lettter = ffname[2];
+        let answ = `Welcome ${ffname} ${llname}`;
+        let concatt1 = ffname.concat("", llname);
+        let upper = ffname.toUpperCase();
+        let lower = llname.toLowerCase();
+        let trimm = ffname.trim();
+        let starttrim = ffname.trimStart(); // trimEnd()
+        let neewtext = "hrllo heello hello";
+        let reeplacee = neewtext.replace("hello", "hheelloo");
+        let sentence = "html html html html";
+        let ssentence = sentence.replaceAll("html", "CSS");
+        let slicee = llname.slice(1, 3);
+        let sliczz = llname.slice(1);
+        let subs = llname.substring(1, 3);
+
+        document.getElementById("demo15").innerHTML = answ;
+        document.getElementById("demo16").innerHTML = answ.length;
+        document.getElementById("demo17").innerHTML = char;
+        document.getElementById("demo18").innerHTML = letter;
+        document.getElementById("demo19").innerHTML = lettter;
+        document.getElementById("demo20").innerHTML = concatt1;
+        document.getElementById("demo21").innerHTML = upper;
+        document.getElementById("demo22").innerHTML = lower;
+        document.getElementById("demo23").innerHTML = trimm;
+        document.getElementById("demo24").innerHTML = starttrim;
+        document.getElementById("demo25").innerHTML = reeplacee;
+        document.getElementById("demo26").innerHTML = ssentence;
+        document.getElementById("demo27").innerHTML = slicee;
+        document.getElementById("demo28").innerHTML = sliczz;
+        document.getElementById("demo29").innerHTML = subs;
+        document.getElementById("demo30").innerHTML = llname.includes("jacks");
+        document.getElementById("demo30").innerHTML = llname.startsWith("jacks");
+        document.getElementById("demo30").innerHTML = llname.endsWith("jacks");
+    </script>
+</body>
+
+</html>
